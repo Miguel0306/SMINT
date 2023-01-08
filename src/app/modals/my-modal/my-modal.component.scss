@@ -1,0 +1,29 @@
+.desc {
+    width: 90%;  /* Set a width for the div */
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  ion-list-header {
+    font-size: larger;
+    color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  ion-item {
+    text-align: left;
+  }
+
+  /*
+  ion-content {
+    --ion-background-color: #0f0f0f;
+}
+  
+  */

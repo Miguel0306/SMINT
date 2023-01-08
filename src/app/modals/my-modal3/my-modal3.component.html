@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{'certifications-modal' | translate }}</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="closeModal3()">
+        <ion-icon slot="icon-only" name="close"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title class="title">{{'certifications-inf1' | translate }}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-item *ngFor="let item of firstSevenItems">{{item.title}}</ion-item>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title class="title">{{'certifications-inf2' | translate }}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-item *ngFor="let item of restOfItems">{{item.title}}</ion-item>
+      </ion-card-content>
+    </ion-card>
+  </ion-list>
+</ion-content>
+

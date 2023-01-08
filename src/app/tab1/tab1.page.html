@@ -1,0 +1,71 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Perfil</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="header-inf">
+  <div class="profile">
+    <p class="name"><img class="profilepic" src="../../assets/imgs/profile-img.png"/>Miguel Miranda</p>
+  </div>
+
+  <div class="info">
+    <div class="btnsinfo">
+    <ion-button class="ipvc" href="https://www.ipvc.pt/" target="_blank">IPVC</ion-button>
+    <ion-button class="estg" href="https://www.ipvc.pt/estg/" target="_blank">ESTG</ion-button>
+  </div>
+    <p class="dwmp"><a  class="dwm" href="https://www.ipvc.pt/estg/courses/desenvolvimento-web-e-multimedia/?mp=213&mc=297" target="_blank">
+      <p>{{'course' | translate }}</p></a></p>
+  </div>
+
+</div>
+
+
+  <ion-row>
+    <ion-col>
+      <ion-card class="personal-inf">
+        <ion-card-header>
+          <ion-card-title>{{'personal-inf' | translate }}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <div class="personal-inf-specific">
+            <p><span class="first-word">{{'inf-name1' | translate }}</span>{{ 'Miguel Miranda' | translate }}</p>
+            <p><span class="first-word">{{ 'Nº: ' | translate }}</span>{{ '28843' | translate }}</p>
+            <p><span class="first-word">{{'inf-age1' | translate }}</span>{{'inf-age2' | translate }}</p>
+            <p><span class="first-word">{{'inf-local1' | translate }}</span> {{ 'Barcelos' | translate }}</p>
+            <p><span class="first-word">{{'inf-school1' | translate }}</span>{{ 'ESTG IPVC' | translate }}</p>
+            <p><span class="first-word">{{'inf-course1' | translate }}</span>{{'inf-course2' | translate }}</p>
+          </div>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col>
+      <ion-card class="project-inf">
+        <ion-card-header>
+          <ion-card-title>{{'project-inf' | translate }}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <div class="project-inf-specific">
+            <p><span class="first-word">{{'inf-proj1' | translate }}</span>{{'inf-proj2' | translate }}</p>
+            <p><span class="first-word">{{'inf-unit1' | translate }}</span>{{'inf-unit2' | translate }}</p>
+            <p><span class="first-word">{{'inf-teacher1' | translate }}</span> {{'Marcelo Antunes Fernandes' | translate }}</p>
+            <p><span class="first-word">{{'inf-cont1' | translate }}</span>{{'inf-cont2' | translate }}</p>
+            <p><span class="first-word">{{'inf-lang' | translate }}</span>{{'Ionic' | translate }}</p>
+            <p><span class="first-word">{{'inf-prog' | translate }}</span>{{'Visual Studio Code' | translate }}</p>
+          </div>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
+  
+
+</ion-content>

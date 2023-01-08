@@ -1,0 +1,80 @@
+.form {
+  width: 40rem; 
+  height: 17.5rem;
+  margin: 0 auto; 
+  /*background-color: black;*/
+  border-radius: 20px;
+}
+
+.cont1,
+.cont2,
+.cont3 {
+ /* --background: #1c1c1c; */
+  border-radius: 7px; /* Add some rounded corners to the form elements */
+  margin-bottom: 0.5rem; /* Add some space between form elements */
+  box-shadow: 0 -1px 0px 0 rgba(0, 0, 255, 1);
+}
+
+.send-btn {
+  --color: white;
+  /*--background: #0f0f0f;  Set the background color to #0f0f0f */
+  width: 100%;
+  height: 3rem;
+  margin: 0 auto;
+  border-radius: 7px;
+  font-size: 1.2rem; /* Increase the font size of the button */
+  font-weight: 600; /* Bold the button text */
+  text-transform: uppercase; /* Uppercase the button text */
+  letter-spacing: 1px; /* Add some space between button text letters */
+  --background: linear-gradient(to right, #0072ff, #00c6ff);
+}
+
+.send-icon {
+  margin-left: 1rem;
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.1s ease;
+}
+
+.send-btn:active .send-icon {
+  /* Other styles */
+  transform: scale(1.2);
+}
+
+.cont-f {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.social-btns {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+ 
+  }
+  
+  .text-h {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 0.5rem;
+    /*color: white;*/
+  }
+
+
+
+@media (max-width: 40rem) {
+    .form {
+      width: 100%; /* Set the width to 100% when the screen size is smaller than 40rem */
+    }
+  }
+

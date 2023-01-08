@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{'education-modal' | translate }}</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="closeModal2()">
+        <ion-icon slot="icon-only" name="close"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>{{'education-inf1' | translate }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p *ngFor="let item of firstTwoItems"><span class="first-word">{{item.title}} {{item.description}}</span></p>
+    </ion-card-content>
+  </ion-card>
+  
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>{{'education-inf2' | translate }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p *ngFor="let item of lastTwoItems"><span class="first-word">{{item.title}} {{item.description}}</span></p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

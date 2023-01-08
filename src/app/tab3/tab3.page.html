@@ -1,0 +1,62 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Contactos</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  
+  <ion-content [fullscreen]="true">
+    <div class="cont-f">
+    <form class="form" #formRef="ngForm">
+      <ion-item class="cont1">
+        <ion-label position="floating">{{ 'form-name' | translate }}</ion-label>
+        <ion-input type="text" [(ngModel)]="name" name="name" required></ion-input>
+      </ion-item>
+      <ion-item class="cont2">
+        <ion-label position="floating">{{ 'form-email' | translate }}</ion-label>
+        <ion-input type="email" [(ngModel)]="email" name="email" required></ion-input>
+      </ion-item>
+      <ion-item class="cont3">
+        <ion-label position="floating">{{ 'form-message' | translate }}</ion-label>
+        <ion-textarea [(ngModel)]="message" name="message" required></ion-textarea>
+      </ion-item>
+      <ion-button class="send-btn" type="submit" expand="block" (click)="submitForm(formRef)">{{ 'send-button' | translate }}<ion-icon class="send-icon" name="send-outline"></ion-icon></ion-button>
+    
+    </form>
+    
+
+    <div class="text-h">
+    <h2>{{ 'social-media' | translate }}</h2>
+  </div>
+
+    <div class="social-btns">
+      <ion-button href="https://www.whatsapp.com/?lang=pt_pt" target="_blank">
+        <ion-icon name="logo-whatsapp"></ion-icon>
+      </ion-button>
+    
+      <ion-button href="https://www.instagram.com/" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </ion-button>
+    
+      <ion-button href="https://twitter.com/" target="_blank">
+        <ion-icon name="logo-twitter"></ion-icon>
+      </ion-button>
+    
+      <ion-button href="https://github.com/" target="_blank">
+        <ion-icon name="logo-github"></ion-icon>
+      </ion-button>
+    </div>
+  
+  </div>
+  
+
+</ion-content>

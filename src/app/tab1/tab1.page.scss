@@ -1,0 +1,470 @@
+.header-inf {
+    margin-top: -3rem;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'San Francisco';
+    /*text-shadow: 2px 2px 2px rgba(71, 71, 71, 0.5);*/
+    white-space: nowrap;
+    justify-content: center;
+}
+
+.profilepic {
+    width: 20%;
+    margin-right: 5%;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+  }
+
+
+.info {
+    display: flex;
+    justify-content: center;
+   /* border-bottom: 1px solid white;*/
+      
+}
+
+.btnsinfo {
+    position: absolute;
+    display: flex;
+    width: 18%;
+    margin-left: 25.2%;
+    margin-top: -18%;
+}
+
+.dwm {
+    font-size: 22.5px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.dwmp {
+    position: absolute;
+    margin-top: -14%;
+    margin-left: 25.2%;
+}
+
+.ipvc {
+    width: 100%;
+    font-size: larger;
+    margin-left: -18%;
+}
+
+.estg {
+    width: 100%;
+    font-size: larger;
+    margin-right: -18%;
+}
+  
+  .project-inf {
+    text-align: center;
+    border-radius: 25px;
+    /*background-color: #0f0f0f;*/
+  }
+
+  .personal-inf {
+    text-align: center;
+    border-radius: 25px;
+    /*background-color: #0f0f0f;*/
+  }
+
+
+  .project-inf-specific {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .personal-inf-specific {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  ion-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  ion-card-content {
+    padding: 16px;
+  }
+
+  ion-card-header {
+    margin: 16px;
+  }
+
+  ion-card-title {
+    font-size: 24px;
+    color: #428cff;
+  }
+
+  ion-card p {
+    font-size: 16px;
+   /* color: white;*/
+  }
+
+
+  .first-word {
+    font-weight: bold;
+    color: red;
+  }
+
+
+@media (max-width: 1900px) {
+    .btnsinfo {
+        width: 15%;
+        margin-left: 23.2%;
+    }
+    .dwm {
+        font-size: 23px;
+    }
+    .dwmp {
+        margin-left: 23.2%;
+    }
+  }
+
+@media (max-width: 1800px) {
+    .btnsinfo {
+        width: 16%;
+        margin-left: 24.2%;
+    }
+    .dwm {
+        font-size: 24px;
+    }
+    .dwmp {
+        margin-left: 24.2%;
+    }
+  }
+
+@media (max-width: 1700px) {
+    .btnsinfo {
+        width: 17%;
+        margin-left: 25.2%;
+    }
+    .dwm {
+        font-size: 25px;
+    }
+    .dwmp {
+        margin-left: 25.2%;
+    }
+  }
+
+@media (max-width: 1600px) {
+    .btnsinfo {
+        width: 18%;
+        margin-left: 25.2%;
+    }
+    .dwm {
+        font-size: 24px;
+    }
+    .dwmp {
+        margin-left: 25.2%;
+    }
+  }
+
+@media (max-width: 1500px) {
+    .btnsinfo {
+        width: 19%;
+        margin-left: 25.2%;
+    }
+    .dwm {
+        font-size: 24px;
+    }
+    .dwmp {
+        margin-left: 25.2%;
+    }
+  }
+
+@media (max-width: 1400px) {
+    .btnsinfo {
+        width: 20%;
+        margin-left: 25.2%;
+    }
+    .dwm {
+        font-size: 24px;
+    }
+    .dwmp {
+        margin-left: 25.2%;
+    }
+  }
+
+@media (max-width: 1300px) {
+    .btnsinfo {
+        width: 22%;
+        margin-left: 25.2%;
+    }
+    .dwmp {
+        margin-left: 25.2%;
+    }
+  }
+
+@media (max-width: 1200px) {
+    .name {
+      font-size: 40px;
+    }
+    .profile {
+        margin-top: 9%;
+    }
+    .btnsinfo {
+        width: 18%;
+        margin-left: 25.2%;
+    }
+    .dwmp {
+        margin-top: -12.5%;
+    }
+    .dwm {
+        font-size: 18px;
+    }
+    .header-inf {
+        margin-top: -5.5rem;
+    }
+  }
+  
+@media (max-width: 1100px) {
+    .name {
+      font-size: 40px;
+    }
+    .profile {
+        margin-top: 9%;
+    }
+    .btnsinfo {
+        width: 19%;
+        margin-left: 25.2%;
+    }
+    .dwmp {
+        margin-top: -12.5%;
+    }
+    .dwm {
+        font-size: 18px;
+    }
+  }
+
+@media (max-width: 1000px) {
+    .name {
+      font-size: 40px;
+    }
+    .profile {
+        margin-top: 9%;
+    }
+    .btnsinfo {
+        width: 20%;
+        margin-left: 25.2%;
+    }
+    .dwmp {
+        margin-top: -12.5%;
+    }
+    .dwm {
+        font-size: 18px;
+    }
+  }
+
+@media (max-width: 900px) {
+    .name {
+      font-size: 40px;
+    }
+    .profile {
+        margin-top: 9%;
+    }
+    .btnsinfo {
+        width: 22%;
+        margin-left: 25.2%;
+    }
+    .dwmp {
+        margin-top: -12.5%;
+    }
+    .dwm {
+        font-size: 17px;
+    }
+  }
+
+
+  @media (max-width: 800px) {
+    .name {
+      font-size: 30px;
+    }
+    .profile {
+        margin-top: 9%;
+    }
+    .btnsinfo {
+        width: 19%;
+        margin-left: 25.2%;
+    }
+    .dwmp {
+        margin-top: -11%;
+    }
+    .dwm {
+        font-size: 13px;
+    }
+    .header-inf {
+        margin-top: -3.5rem;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .name {
+      font-size: 30px;
+    }
+    .profile {
+        margin-top: 9%;
+    }
+    .btnsinfo {
+        width: 21%;
+        margin-left: 25.2%;
+    }
+    .dwmp {
+        margin-top: -11%;
+    }
+    .dwm {
+        font-size: 13px;
+    }
+    ion-card-title {
+        font-size: 24px;
+      }
+    
+      ion-card p {
+        font-size: 16px;
+      }
+  }
+
+  @media (max-width: 600px) {
+    .name {
+      font-size: 30px;
+    }
+    .profile {
+        margin-top: 9%;
+    }
+    .btnsinfo {
+        width: 20%;
+        margin-left: 19.2%;
+    }
+    .dwmp {
+        margin-top: -11%;
+    }
+    .dwm {
+        font-size: 13px;
+    }
+    ion-card-title {
+        font-size: 23px;
+      }
+      ion-card p {
+        font-size: 15.5px;
+      }
+  }
+
+  @media (max-width: 500px) {
+    .name {
+      font-size: 28px;
+    }
+    .profile {
+        margin-top: 12%;
+    }
+    .btnsinfo {
+        width: 20%;
+        margin-left: 15.2%;
+    }
+    .dwmp {
+        margin-top: -10%;
+    }
+    .dwm {
+        font-size: 12px;
+    }
+    .ipvc {
+        font-size: large;
+        height: 2rem;
+    }
+    .estg {
+        font-size: large;
+        height: 2rem;
+    }
+    ion-card-title {
+        font-size: 22.5px;
+      }
+      ion-card p {
+        font-size: 15px;
+      }
+  }
+
+  @media (max-width: 400px) {
+    .name {
+      font-size: 25px;
+    }
+    .profile {
+        margin-top: 15%;
+    }
+    .btnsinfo {
+        width: 20%;
+        margin-left: 12.2%;
+    }
+    .dwmp {
+        margin-top: -8%;
+    }
+    .dwm {
+        font-size: 10px;
+    }
+    .ipvc {
+        font-size: medium;
+        height: 2rem;
+    }
+    .estg {
+        font-size: medium;
+        height: 2rem;
+    }
+    ion-card-title {
+        font-size: 22px;
+      }
+      ion-card p {
+        font-size: 14px;
+      }
+  }
+  
+  @media (max-width: 300px) {
+    .name {
+      font-size: 15px;
+    }
+    .profile {
+        margin-top: 15%;
+    }
+    .btnsinfo {
+        margin-top: -4rem;
+        width: 20%;
+        margin-left: 18.2%;
+    }
+    .dwmp {
+        margin-top: -14%;
+    }
+    .dwm {
+        font-size: 7px;
+    }
+    .header-inf {
+        margin-top: -3rem;
+    }
+    .info {
+        margin-top: 0.5rem;
+    }
+    .ipvc {
+        font-size: x-small;
+        height: 1rem;
+    }
+    .estg {
+        font-size: x-small;
+        height: 1rem;
+    }
+    ion-card-title {
+        font-size: 14px;
+      }
+      ion-card p {
+        font-size: 10.5px;
+      }
+  }
+

@@ -1,0 +1,36 @@
+.btns-header {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   position: absolute;
+   margin-top: -0.5rem;
+} 
+
+.lang-btns {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+}
+
+.darkmode-btn {
+    position: absolute;
+    right: 16px;
+    top: 1.3rem;
+}
+  
+
+.darkmode-icon {
+    font-size: 2.2rem;
+    position: absolute;
+    right: 5rem;
+    top: 1.2rem;
+}
+
+ion-toggle:checked + ion-label ion-icon[name="moon"] {
+    color: white;
+  }
+
+ion-toggle:not(:checked) + ion-label ion-icon[name="sunny"] {
+    color: black;
+  }
+  

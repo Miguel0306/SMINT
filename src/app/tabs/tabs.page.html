@@ -1,0 +1,34 @@
+<ion-tabs>
+
+  <div class="btns-header">
+    <div class="lang-btns">
+    <ion-button (click)="changeLanguage('en')">
+      {{'en' | translate }}</ion-button>
+      <ion-button (click)="changeLanguage('pt')">
+        {{'pt' | translate }}</ion-button>
+        </div>
+    <ion-toggle #toggle mode="ios" class="darkmode-btn" (ionChange)="onToggleColorTheme($event)"></ion-toggle>
+    <ion-label>
+      <ion-icon class="darkmode-icon" [name]="iconName"></ion-icon>
+    </ion-label>
+    
+  </div>
+
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="perfil">
+      <ion-icon name="person-circle"></ion-icon>
+      <ion-label>Perfil</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="skills">
+      <ion-icon name="stats-chart"></ion-icon>
+      <ion-label>Skills</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="contactos">
+      <ion-icon name="call"></ion-icon>
+      <ion-label>Contactos</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+
+</ion-tabs>

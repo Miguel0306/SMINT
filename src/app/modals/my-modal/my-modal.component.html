@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{'project-modal' | translate }}</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="closeModal1()">
+        <ion-icon slot="icon-only" name="close"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <div class="desc">
+    <ion-list *ngFor="let item of projetoItems">
+      <ion-list-header>{{item.title}}</ion-list-header>
+      <ion-item> {{item.description}}</ion-item>
+    </ion-list>
+  </div>
+  
+</ion-content>
